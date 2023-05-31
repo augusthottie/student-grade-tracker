@@ -51,6 +51,6 @@ pip install matplotlib
 python student_grade_tracker.py
 ```
 
-Make sure to replace `grade_tracker.py` with the actual filename if you saved it differently.
+Make sure to replace `student_grade_tracker.py` with the actual filename if you saved it differently.
 
 Enjoy tracking student grades and exploring the features of this program!
