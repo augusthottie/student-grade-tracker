@@ -45,7 +45,7 @@ To run the program, follow these steps:
 ```shell
 pip install matplotlib
 ```
-4. Save the code provided in a Python file (e.g., `grade_tracker.py`).
+4. Save the code provided in a Python file (e.g., `student_grade_tracker.py`).
 5. Run the Python file using the command:
 ```shell
 python student_grade_tracker.py
