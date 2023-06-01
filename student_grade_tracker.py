@@ -6,9 +6,12 @@ grades = []
 
 #Add grade
 def add_grade():
-    grade = float(input("Enter students grade: "))
-    grades.append(grade)
-    print("Student Grade added successfully!!")
+    print("Grades Before Adding ",  grades)
+    input_str = input("Enter students grades separated by space: ")
+    grades_list = list(map(float, input_str.split()))
+    grades.extend(grades_list)
+    print("Grades After Adding " , grades)
+    print("Student Grades added successfully!!")
 
 #List all grades
 def display_grade():
