@@ -1,7 +1,7 @@
 #program to track student grades, add grade, calculate average, determine highest and lowest grade, and display a bar chart of grades
 import matplotlib.pyplot as plt
 
-#grades
+#initialise grades to empty list
 grades = []
 
 #Add grade
@@ -18,7 +18,7 @@ def display_grade():
     if len(grades) == 0:
         print("No grades to display")
     else:
-        print("Student Grades: ")
+        print("Student Grades as follows: ")
         for grade in grades:
             print(grade)
 
@@ -84,7 +84,7 @@ def main():
             case 6:
                 display_bar_chart()
             case 7:
-                print("Exiting the program...")
+                print("Exiting the program......")
                 break
             case _:
                 print("Invalid choice")
